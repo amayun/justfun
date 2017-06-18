@@ -7,5 +7,6 @@ function sub(a, b) {
 }
 
 function devide(a, b) {
+    if (b === 0) throw Error('Can\'t devide by zero');
     return a / b
 }
