@@ -10,3 +10,7 @@ function devide(a, b) {
     if (b === 0) throw Error('Can\'t devide by zero');
     return a / b
 }
+
+function sin(angle) {
+    return Math.sin(angle)
+}
