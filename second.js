@@ -7,5 +7,6 @@ function pow(a, b) {
 }
 
 function doFoo(bar) {
+    if(bar) return 1
     return 0
 }
