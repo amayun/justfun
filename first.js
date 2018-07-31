@@ -1,8 +1,10 @@
 function sum(a, b) {
+    console.log('stop it');
     return a + b
 }
 
 function sub(a, b) {
+    console.log('stop it');
     return a - b
 }
 
