@@ -12,5 +12,6 @@ function devide(a, b) {
 }
 
 function sin(angle) {
+    console.log('hahaha - you shall not pass');
     return Math.sin(angle)
 }
